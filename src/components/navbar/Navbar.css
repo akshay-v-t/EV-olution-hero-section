@@ -1,0 +1,43 @@
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 40px 20px;
+    color: #ffff;
+}
+
+.nav-logo{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size:18px ;
+    gap: 90px;
+}
+
+.nav-contact {
+    border-radius: 50px;
+    padding: 10px 38px;
+    background-color: #ffff;
+    color: black;
+}
+
+.nav-contact:hover {
+  background-color: orangered;
+  color: white;
+}
+.nav-menu li{
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    
+}
+.nav-menu li:hover{
+   color: orange;
+    
+}
